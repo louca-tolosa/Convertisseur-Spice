@@ -1,0 +1,36 @@
+<!DOCTYPE html>        //Indique au navigateur que le document utilise HTML5, la version standard la plus récente.
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Convertisseur SPICE</title>
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur le Convertisseur SPICE</h1>
+    <p>Un outil pour rendre les librairies SPICE compatibles avec différents logiciels.</p>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>À propos</h2>
+      <p>Ce projet est en cours de développement. Accédez-y uniquement si vous avez reçu le lien.</p>
+    </section>
+
+    <section id="upload">
+      <h2>Conversion de Librairies</h2>
+      <p>Chargez votre fichier SPICE pour commencer :</p>
+      <form>
+        <label for="fileInput">Choisissez un fichier :</label>
+        <input type="file" id="fileInput" name="fileInput" accept=".spice,.txt">
+        <button type="submit">Convertir</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 - Votre Nom ou Projet</p>
+  </footer>
+</body>
+</html>
