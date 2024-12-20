@@ -1,36 +1,36 @@
-<!DOCTYPE html>        //Indique au navigateur que le document utilise HTML5, la version standard la plus récente.
-<html lang="fr">
+<!DOCTYPE html>        <!--Indique au navigateur que le document utilise HTML5, la version standard la plus récente.-->
+<html lang="fr">       <!--Ouvre l'élément racine <html> et précise que le contenu est en français (lang="fr") pour une meilleure accessibilité (par exemple, lecteurs d'écran).-->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Convertisseur SPICE</title>
-</head>
-<body>
-  <header>
-    <h1>Bienvenue sur le Convertisseur SPICE</h1>
-    <p>Un outil pour rendre les librairies SPICE compatibles avec différents logiciels.</p>
-  </header>
+  <meta charset="UTF-8">        <!--Définit l'encodage des caractères en UTF-8, un standard qui prend en charge la majorité des caractères et symboles (nécessaire pour afficher correctement les accents, par exemple).-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">        <!--Rend le site responsive, c’est-à-dire qu’il s’ajustera à différentes tailles d’écran (ordinateurs, tablettes, mobiles).-->
+  <meta name="robots" content="noindex, nofollow">        <!--Empêche les moteurs de recherche d'indexer cette page et de la lister dans les résultats.-->
+  <title>Convertisseur SPICE</title>        <!--Définit le titre de la page, qui s'affichera dans l'onglet du navigateur ou dans les favoris.-->
+</head>        <!--Termine la section d'en-tête.-->
+<body>         <!--Début de la section principale du contenu visible de la page.-->
+  <header>      <!--balise sémantique qui indique qu’il s’agit de l’en-tête du contenu principal.-->
+    <h1>Bienvenue sur le Convertisseur SPICE</h1>        <!--titre principal-->
+    <p>Un outil pour rendre les librairies SPICE compatibles avec différents logiciels.</p>        <!--paragraphe d'introduction-->
+  </header>    
 
-  <main>
-    <section id="intro">
-      <h2>À propos</h2>
-      <p>Ce projet est en cours de développement. Accédez-y uniquement si vous avez reçu le lien.</p>
-    </section>
+  <main>        <!--
+    <section id="intro">        <!--
+      <h2>À propos</h2>        <!--
+      <p>Ce projet est en cours de développement. Accédez-y uniquement si vous avez reçu le lien.</p>        <!--
+    </section>        <!--
 
-    <section id="upload">
-      <h2>Conversion de Librairies</h2>
-      <p>Chargez votre fichier SPICE pour commencer :</p>
-      <form>
-        <label for="fileInput">Choisissez un fichier :</label>
-        <input type="file" id="fileInput" name="fileInput" accept=".spice,.txt">
-        <button type="submit">Convertir</button>
-      </form>
-    </section>
-  </main>
+    <section id="upload">        <!--
+      <h2>Conversion de Librairies</h2>        <!--
+      <p>Chargez votre fichier SPICE pour commencer :</p>        <!--
+      <form>        <!--
+        <label for="fileInput">Choisissez un fichier :</label>        <!--
+        <input type="file" id="fileInput" name="fileInput" accept=".spice,.txt">        <!--
+        <button type="submit">Convertir</button>        <!--
+      </form>        <!--
+    </section>        <!--
+  </main>          <!--
 
-  <footer>
-    <p>&copy; 2024 - Votre Nom ou Projet</p>
-  </footer>
-</body>
-</html>
+  <footer>        <!--
+    <p>&copy; 2024 - Votre Nom ou Projet</p>        <!--
+  </footer>        <!--
+</body>        <!--
+</html>        <!--
