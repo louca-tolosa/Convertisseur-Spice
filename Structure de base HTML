@@ -23,7 +23,7 @@
       <p>Chargez votre fichier SPICE pour commencer :</p>        <!--Indication-->
       <form>        <!--Balise "form" qui délimite le formulaire d'envoi de fichiers-->
         <label for="fileInput">Choisissez un fichier :</label>        <!--Permet de choisir un fichier-->
-        <input type="file" id="fileInput" name="fileInput" accept=".spice,.txt">        <!--Restreint les types de fichiers pouvant être sélectionnés-->
+        <input type="file" id="fileInput" name="fileInput" accept=".lib,.txt">        <!--Restreint les types de fichiers pouvant être sélectionnés-->
         <button type="submit">Convertir</button>        <!--Bouton pour soumettre le formulaire.-->
       </form>        <!--fin de la balise-->
     </section>        <!--fin de la section upload-->
