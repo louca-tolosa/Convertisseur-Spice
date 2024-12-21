@@ -12,25 +12,25 @@
     <p>Un outil pour rendre les librairies SPICE compatibles avec différents logiciels.</p>        <!--paragraphe d'introduction-->
   </header>    
 
-  <main>        <!--
-    <section id="intro">        <!--
-      <h2>À propos</h2>        <!--
-      <p>Ce projet est en cours de développement. Accédez-y uniquement si vous avez reçu le lien.</p>        <!--
-    </section>        <!--
+  <main>        <!--Contient les sections principales de la page, marquées comme essentielles-->
+    <section id="intro">        <!--Utilisation de "section" pour structurer une partie spécifique de la page, ici la description-->
+      <h2>À propos</h2>        <!--Rubrique à propos-->
+      <p>Ce projet est en cours de développement. Accédez-y uniquement si vous avez reçu le lien.</p>        <!--Texte explicatif-->
+    </section>        <!--fin de la section d'intro-->
 
-    <section id="upload">        <!--
-      <h2>Conversion de Librairies</h2>        <!--
-      <p>Chargez votre fichier SPICE pour commencer :</p>        <!--
-      <form>        <!--
-        <label for="fileInput">Choisissez un fichier :</label>        <!--
-        <input type="file" id="fileInput" name="fileInput" accept=".spice,.txt">        <!--
-        <button type="submit">Convertir</button>        <!--
-      </form>        <!--
-    </section>        <!--
-  </main>          <!--
+    <section id="upload">        <!--Section permettant d'envoyer le fichier que l'on souhaite convertir-->
+      <h2>Conversion de Librairies</h2>        <!--Texte de l'entête-->
+      <p>Chargez votre fichier SPICE pour commencer :</p>        <!--Indication-->
+      <form>        <!--Balise "form" qui délimite le formulaire d'envoi de fichiers-->
+        <label for="fileInput">Choisissez un fichier :</label>        <!--Permet de choisir un fichier-->
+        <input type="file" id="fileInput" name="fileInput" accept=".spice,.txt">        <!--Restreint les types de fichiers pouvant être sélectionnés-->
+        <button type="submit">Convertir</button>        <!--Bouton pour soumettre le formulaire.-->
+      </form>        <!--fin de la balise-->
+    </section>        <!--fin de la section upload-->
+  </main>          <!--fin du main-->
 
-  <footer>        <!--
-    <p>&copy; 2024 - Votre Nom ou Projet</p>        <!--
-  </footer>        <!--
-</body>        <!--
-</html>        <!--
+  <footer>        <!--Section en bas de page avec une information de copyright.-->
+    <p>&copy; 2024 - Votre Nom ou Projet</p>        <!--Le symbole &copy; génère automatiquement le symbole ©.-->
+  </footer>        <!--Fin de la section footer-->
+</body>        <!--fin de la section contenant le code-->
+</html>        <!--fin du code html-->
