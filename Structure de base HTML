@@ -30,7 +30,7 @@
   </main>          <!--fin du main-->
 
   <footer>        <!--Section en bas de page avec une information de copyright.-->
-    <p>&copy; 2024 - Votre Nom ou Projet</p>        <!--Le symbole &copy; génère automatiquement le symbole ©.-->
+    <p>&copy; 2024 - Créateur : TOLOSA Louca</p>        <!--Le symbole &copy; génère automatiquement le symbole ©.-->
   </footer>        <!--Fin de la section footer-->
 </body>        <!--fin de la section contenant le code-->
 </html>        <!--fin du code html-->
